@@ -224,9 +224,11 @@ export function CartPage() {
                 </div>
               </div>
 
+ <Link
+                to="/checkout">
               <Button size="lg" className="w-full mb-4">
                 Proceed to Checkout
-              </Button>
+              </Button> </Link>
 
               <Link
                 to="/products"

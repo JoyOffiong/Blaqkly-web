@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import { forwardRef } from 'react';
 import { motion, HTMLMotionProps } from 'framer-motion';
 type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'outline';
 type ButtonSize = 'sm' | 'md' | 'lg';
